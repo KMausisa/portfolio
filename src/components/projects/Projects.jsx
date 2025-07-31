@@ -1,4 +1,3 @@
-// This will handle my projects that I have worked on
 import React from "react";
 
 /** * Projects component that displays a list of projects.

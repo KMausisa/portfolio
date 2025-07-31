@@ -1,4 +1,3 @@
-// This will handle displaying my job experiences
 import React from "react";
 
 /** * Experience component that displays a list of job experiences.

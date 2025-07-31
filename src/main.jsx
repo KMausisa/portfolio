@@ -13,7 +13,7 @@ import Experience from "./components/experience/Experience.jsx";
 import Projects from "./components/projects/Projects.jsx";
 
 /**
- * Routes for portflio:
+ * Routes for portfolio:
  *  - Home: Includes About and Contact information
  *  - Experience: Lists job experiences
  *  - Projects: Showcases various projects
@@ -27,11 +27,11 @@ const router = createBrowserRouter([
       { index: true, element: <App /> },
       {
         path: "/experience",
-        element: <Experience />, // Will be replaced with Experience component
+        element: <Experience />,
       },
       {
         path: "/projects",
-        element: <Projects />, // Will be replaced with Projects component
+        element: <Projects />,
       },
     ],
   },
